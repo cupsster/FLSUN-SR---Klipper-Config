@@ -28,7 +28,7 @@ Most of code is commented to get better understanding of what it does.
 
 Also, as I progress I will rename macros in a way that they are uniform and adhere to some standard. I will most likely follow practices listed on Klipper website eg.: `MY_AWESOME_MACRO` is treated in code same as `my_awesome_macro` but I will adhere to form with **capital letters** so it can be spotted in code immediately.
 
-For acro editing I'm using [VS Code](https://code.visualstudio.com/) and Klipper Config plugin.
+For macro editing I'm using [VS Code](https://code.visualstudio.com/) and Klipper Config plugin.
 
 ## Disclaimer
 **Before you use any macro here provided please make double sure you understand what it does to avoid damage to your machine or magic smoke! Especially check macros that move toolhead, control temperature or filament extrusion!**
