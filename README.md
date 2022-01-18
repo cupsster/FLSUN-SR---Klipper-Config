@@ -7,7 +7,7 @@ Please read through configuration to verify your settings to avoit potential dam
 Repository will be updated with new macros and guides as I gain more knowledge on subject.
 
 # Hardware
-Presented configuration pinout is based on [MKS Robin Nano V3.0](https://github.com/makerbase-mks/Klipper-for-MKS-Boards) with **tmc2209** stepper drivers. You might need to modify it to match your board and drivers setup. I'm running Klipper on **RPI 3B+**.
+Presented configuration pinout is based on **[MKS Robin Nano V3.0](https://github.com/makerbase-mks/Klipper-for-MKS-Boards)** with **[tmc2209](https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/)** stepper drivers. You might need to modify it to match your board and drivers setup. I'm running Klipper on **[RPI 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)**.
 
 ## Upgrades
 For mounting control board and RPI inside enclosure I used this [mounting bracket](https://www.thingiverse.com/thing:4980886) by [superdave42](https://www.thingiverse.com/superdave42/designs) (go say thank you to the man!) that actually fit on build plate so wise thing is to print it before you start upgrade. I suggest you do it. It will save you lots of time.</br>
