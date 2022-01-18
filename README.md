@@ -1,4 +1,4 @@
-# FLSUN Super Racer - Klipper Config
+# FLSUN Super Racer - Klipper Config 
 This repository contains settings for FLSUN Super Racer delta printer along with common macros.
 Please read through configuration to verify your settings to avoit potential damage and/or death.
 
