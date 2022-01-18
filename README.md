@@ -13,6 +13,9 @@ Presented configuration pinout is based on **[MKS Robin Nano V3.0](https://githu
 For mounting control board and RPI inside enclosure I used this [mounting bracket](https://www.thingiverse.com/thing:4980886) by [superdave42](https://www.thingiverse.com/superdave42/designs) (go say thank you to the man!) that actually fit on build plate so wise thing is to print it before you start upgrade. I suggest you do it. It will save you lots of time.</br>
 Depending on your setup you might want to expose USB port. I used fixed network cable routhed through side opening on top of the base instead more common WiFi setup (can still add it later).
 
+# Slicers
+My slicer of choice is [SuperSlicer](https://github.com/supermerill/SuperSlicer) by [supermill](https://github.com/supermerill/) so some of macros **might** be optimized to use it. I will add relevant instructions for how to set it up later into [SuperSlicer.md](/Slicer/SuperSlicer.md) file. I will try to adjust macros in slicer agnostic way but your mileage may vary.
+
 # Klipper Config
 
 In [Configuration](/Configuration/) folder you will find my [printer.cfg](/Configuration/printer.cfg) file that holds values for my printer as well as [fluidd.cfg](/Configuration/fluidd.cfg) config. Most of config files has descriptions copy pasted from [Klipper](https://www.klipper3d.org/) documentation for easy reference to get you going.
@@ -28,7 +31,7 @@ Also, as I progress I will rename macros in a way that they are uniform and adhe
 For acro editing I'm using [VS Code](https://code.visualstudio.com/) and Klipper Config plugin.
 
 ## Disclaimer
-**Before you use any macro here provided please make double sure you understand what it does to avoid damage to your machine or magic smoke! Especially check macros that move toolhead!**
+**Before you use any macro here provided please make double sure you understand what it does to avoid damage to your machine or magic smoke! Especially check macros that move toolhead, control temperature or filament extrusion!**
 
 ## Usage
 Copy the `macros` folder alongside your printer configuration file and edit it to add:
