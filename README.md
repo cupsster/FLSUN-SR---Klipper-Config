@@ -1,20 +1,22 @@
 # FLSUN Super Racer - Klipper Config 
+**!!! Work in Progress !!!**
+
 This repository contains settings for FLSUN Super Racer delta printer along with common macros.
 Please read through configuration to verify your settings to avoit potential damage and/or death.
 
 **Use at your own risk. Ensure you understand it first. I do not take any responsibility for this code!**
 
-Repository will be updated with new macros and guides as I gain more knowledge on subject.
+Repository will be updated with new macros and guides as I gain more knowledge on subject.</br>For most up to date information you can look in **[develop](/../../tree/develop)** branch of this repository. But be warned that code might not work properly. Once **[master](/../../tree/master)** branch is mature enough, ***Work in Progress*** warning will be removed.
 
 # Hardware
-Presented configuration pinout is based on **[MKS Robin Nano V3.0](https://github.com/makerbase-mks/Klipper-for-MKS-Boards)** with **[tmc2209](https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/)** stepper drivers. You might need to modify it to match your board and drivers setup. I'm running Klipper on **[RPI 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)**.
+Presented printer configuration pinout is based on **[MKS Robin Nano V3.0](https://github.com/makerbase-mks/Klipper-for-MKS-Boards)** with **[tmc2209](https://www.trinamic.com/products/integrated-circuits/details/tmc2209-la/)** stepper drivers. You might need to modify it to match your board and drivers setup. I'm running Klipper on **[Raspberry PI 3B+](https://www.raspberrypi.com/products/raspberry-pi-3-model-b-plus/)**.
 
 ## Upgrades
 For mounting control board and RPI inside enclosure I used this [mounting bracket](https://www.thingiverse.com/thing:4980886) by [superdave42](https://www.thingiverse.com/superdave42/designs) (go say thank you to the man!) that actually fit on build plate so wise thing is to print it before you start upgrade. I suggest you do it. It will save you lots of time.</br>
-Depending on your setup you might want to expose USB port. I used fixed network cable routhed through side opening on top of the base instead more common WiFi setup (can still add it later).
+Depending on your setup you might want to expose USB port. I used fixed network cable routed through side opening on top of the base instead more common WiFi setup (can still add it later).
 
 # Slicers
-My slicer of choice is [SuperSlicer](https://github.com/supermerill/SuperSlicer) by [supermill](https://github.com/supermerill/) so some of macros **might** be optimized to use it. I will add relevant instructions for how to set it up later into [SuperSlicer.md](/Slicer/SuperSlicer.md) file. I will try to adjust macros in slicer agnostic way but your mileage may vary.
+My slicer of choice is [SuperSlicer](https://github.com/supermerill/SuperSlicer) by [supermill](https://github.com/supermerill/) so some of macros **might** be optimized to use it. I will add relevant instructions for how to set it up later into [SuperSlicer.md](/Documentation/Slicer/SuperSlicer.md) file. I will try to adjust macros in slicer agnostic way but your mileage may vary.
 
 # Klipper Config
 
