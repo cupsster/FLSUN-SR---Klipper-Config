@@ -4,6 +4,8 @@ Please read through configuration to verify your settings to avoit potential dam
 
 **Use at your own risk. Ensure you understand it first. I do not take any responsibility for this code!**
 
+Repository will be updated with new macros and guides as I gain more knowledge on subject.
+
 # Hardware
 Presented configuration pinout is based on [MKS Robin Nano V3.0](https://github.com/makerbase-mks/Klipper-for-MKS-Boards) with **tmc2209** stepper drivers. You might need to modify it to match your board and drivers setup. I'm running Klipper on **RPI 3B+**.
 
@@ -11,10 +13,20 @@ Presented configuration pinout is based on [MKS Robin Nano V3.0](https://github.
 For mounting control board and RPI inside enclosure I used this [mounting bracket](https://www.thingiverse.com/thing:4980886) by [superdave42](https://www.thingiverse.com/superdave42/designs) (go say thank you to the man!) that actually fit on build plate so wise thing is to print it before you start upgrade. I suggest you do it. It will save you lots of time.</br>
 Depending on your setup you might want to expose USB port. I used fixed network cable routhed through side opening on top of the base instead more common WiFi setup (can still add it later).
 
+# Klipper Config
+
+In [Configuration](/Configuration/) folder you will find my [printer.cfg](/Configuration/printer.cfg) file that holds values for my printer as well as [fluidd.cfg](/Configuration/fluidd.cfg) config. Most of config files has descriptions copy pasted from [Klipper](https://www.klipper3d.org/) documentation for easy reference to get you going.
+
+
 # Klipper Macros
 
 A collection of Klipper G-code macros adapted from various sources.
 Most of code is commented to get better understanding of what it does.
+
+Also, as I progress I will rename macros in a way that they are uniform and adhere to some standard. I will most likely follow practices listed on Klipper website eg.: `MY_AWESOME_MACRO` is treated in code same as `my_awesome_macro` but I will adhere to form with capital letters so it can be spotted in code immediately.
+
+## Disclaimer
+**Before you use any macro here provided please make double sure you understand what it does to avoid damage to your machine or magic smoke! Especially check macros that move toolhead!**
 
 ## Usage
 Copy the `macros` folder alongside your printer configuration file and edit it to add:
@@ -51,7 +63,7 @@ Here's the list of parameters you can configure:
 | `park_z_raise_ammount`  | 30            | How much to raise nozzle in relative mode |
 
 ## Macros
-Growing list of macros provided in this repository:
+Growing list of macros provided in this repository (many more will come):
 * [G27](/Configuration/macros/G27.cfg)
 * [G29](/Configuration/macros/G29.cfg)
 * [M204](/Configuration/macros/M204.cfg)
