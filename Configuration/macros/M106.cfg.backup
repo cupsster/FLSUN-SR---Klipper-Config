@@ -1,9 +1,10 @@
 [gcode_macro M106]
-rename_existing: M606
+description:
+rename_existing: M106.1
 variable_pin: 0
 gcode:
     {% if S|int >= pin|int %}
-        M606 S{S}
+        M106.1 S{S}
     {% else %}
-        M606 S{pin}
+        M106.1 S{pin}
     {% endif %}
