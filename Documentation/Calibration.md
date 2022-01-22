@@ -30,3 +30,4 @@ Prior performing this step, verify that:
 * that you have sufficient and equal belt tension on all 3 towers
 * that you have small snack at hand
 
+To perform extended calibration of end-stops run `EXTENDED_ENDSTOP_PHASE_CALIBRATE` in terminal. After series of moves will be performed, new values should show up in terminal along iwth message to `SAVE_CONFIG`. Just to be sure, home all axis and issue command `SAVE_CONFIG`, this will cause your printer to restart and save new values.
